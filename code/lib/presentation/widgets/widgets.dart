@@ -1,0 +1,37 @@
+library view_widgets;
+
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:view_app/app/bloc/app_bloc.dart';
+import 'package:view_app/core/keys.dart';
+import 'package:view_app/core/utils.dart';
+import 'package:view_app/data/model/view_post.dart';
+import 'package:view_app/presentation/add_post/add_post.dart';
+import 'package:view_app/presentation/post/post.dart';
+import 'package:view_app/presentation/theme/theme.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:view_app/presentation/user_profile/view/user_profile_screen.dart';
+
+part 'buttons/view_clickable_text.dart';
+part 'buttons/back_icon.dart';
+part 'top_app_bars/back_skip_top_bar.dart';
+part 'top_app_bars/name_back_top_bar.dart';
+part 'text_field_with_title_and_error.dart';
+part 'buttons/opacity_button.dart';
+part 'buttons/view_icon_button.dart';
+part 'buttons/view_text_button.dart';
+part 'buttons/view_filter_button.dart';
+part 'buttons/follow_button.dart';
+part 'post/view_small_post_preview.dart';
+part 'post/view_big_post_preview.dart';
+part 'bottom_nav_bar/view_bottom_nav_bar.dart';
+part 'bottom_nav_bar/view_bottom_nav_bar_item.dart';
+part 'bottom_nav_bar/view_add_button.dart';
+part 'view_logo.dart';
+part 'view_contributor.dart';
+part 'view_circular_progress.dart';
+part 'view_small_circular_progress.dart';
+part 'view_avatar.dart';
+part 'scrollable_filters.dart';

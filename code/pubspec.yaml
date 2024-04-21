@@ -1,0 +1,89 @@
+name: view_app
+description: View application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+  adaptive_theme: ^3.4.1
+  flutter_screenutil: ^5.9.0
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+  bloc_concurrency: ^0.2.3
+  stream_transform: ^2.1.0
+  image_picker: ^1.0.7
+  freezed_annotation: ^2.4.1
+  freezed: ^2.4.6
+  rxdart: ^0.27.7
+  hydrated_bloc: ^9.1.2
+  path_provider: ^2.1.1
+  injectable: ^2.3.2
+  get_it: ^7.6.4
+  equatable: ^2.0.3
+  flow_builder: ^0.0.9
+  font_awesome_flutter: ^10.1.0
+  formz: ^0.6.0
+  google_fonts: ^6.1.0
+
+  test: ^1.19.2
+  fake_cloud_firestore: ^2.4.4
+  firebase_storage_mocks: ^0.6.1
+  firebase_auth_mocks: ^0.13.0
+  google_sign_in_mocks: ^0.3.0
+
+  firebase_storage: ^11.5.4
+  cloud_firestore: ^4.13.4
+  firebase_auth: ^4.6.0
+  firebase_core: ^2.16.0
+  firebase_auth_platform_interface: ^7.0.6
+  firebase_core_platform_interface: ^5.0.0
+  plugin_platform_interface: ^2.1.4
+  google_sign_in: ^6.1.0
+  meta: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  bloc_test: ^9.1.4
+  mocktail: ^1.0.0
+  injectable_generator: ^2.4.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/opensans_bold.ttf
+        - asset: fonts/opensans_bolditalic.ttf
+        - asset: fonts/opensans_extrabold.ttf
+        - asset: fonts/opensans_extrabolditalic.ttf
+        - asset: fonts/opensans_italic.ttf
+        - asset: fonts/opensans_light.ttf
+        - asset: fonts/opensans_lightitalic.ttf
+        - asset: fonts/opensans_medium.ttf
+        - asset: fonts/opensans_mediumitalic.ttf
+        - asset: fonts/opensans_regular.ttf
+        - asset: fonts/opensans_semibold.ttf
+        - asset: fonts/opensans_seminbolditalic.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto_regular.ttf
+    - family: sourceSans3
+      fonts:
+        - asset: fonts/sourcesans3_regular.ttf

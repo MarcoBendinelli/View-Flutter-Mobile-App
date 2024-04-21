@@ -1,0 +1,29 @@
+library home_widgets;
+
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:view_app/core/keys.dart';
+import 'package:view_app/core/utils.dart';
+import 'package:view_app/data/model/view_post.dart';
+import 'package:view_app/presentation/home/bloc/following/following_post_bloc.dart';
+import 'package:view_app/presentation/home/bloc/following/following_post_state.dart';
+import 'package:view_app/presentation/home/bloc/for_you/for_you_post_bloc.dart';
+import 'package:view_app/presentation/home/bloc/for_you/for_you_post_event.dart';
+import 'package:view_app/presentation/home/bloc/for_you/for_you_post_state.dart';
+import 'package:view_app/presentation/home/bloc/trending_now/trending_now_post_bloc.dart';
+import 'package:view_app/presentation/home/bloc/trending_now/trending_now_post_state.dart';
+import 'package:view_app/core/de_bouncer.dart';
+import 'package:view_app/presentation/post/view/post_screen.dart';
+import 'package:view_app/presentation/theme/theme.dart';
+import 'package:view_app/presentation/user_profile/view/user_profile_screen.dart';
+import 'package:view_app/presentation/widgets/cubits/bookmark/bookmark_cubit.dart';
+import 'package:view_app/presentation/widgets/widgets.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+part 'home_top_bar.dart';
+part 'for_you_post_card.dart';
+part 'for_you_post_cards.dart';
+part 'trending_now_posts.dart';
+part 'following_posts.dart';
